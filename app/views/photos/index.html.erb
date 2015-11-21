@@ -68,7 +68,7 @@
                       <div class = "media-body">
                         <h6 class="media-heading">
                           <dt>
-                            <a href="/users/<%= photo.user.id %>"><%= current_user.username %></a>
+                            <a href="/users/<%= photo.user.id %>"><%= photo.user.username %></a>
                             <small><%= time_ago_in_words(photo.created_at) %> ago</small>
                           </dt>
                           <dd>
